@@ -5,7 +5,7 @@ app_id = "wx1d0719fffdb057ee"
 app_secret = "807b5f5b643e7ada86ec67b80094592f"
 # 模板消息id
 # 每日消息
-template_id1 = "8167bJ8tX2ZGvXRg72eu4tS0tnz-lYL9uaYkQFqr9kE"
+template_id1 = "upJZC1lm2bUNsCnTtJOJ0rNT_Bi5HoY_qUl104x54jc"
 # 课程消息,上课提醒
 template_id2 = "BGya0JFIjkN7nGqGjIOTEcvlXaB_tWxE84zMxIe8LBk"
 # 晚安心语
@@ -20,7 +20,7 @@ province = "河北"
 # 所在城市
 city = "承德"
 # 生日，如果月份或者日期小于10，直接用对应的数字即可，例如1997-1-1，---------倒计时
-birthday = "2004-4-28"
+birthday = "2004-4-7"
 # 在一起的日子，格式同上------------计时器
 love_date = "2022-10-27"
 # 天行数据晚安心语 key
@@ -223,8 +223,8 @@ classes = \
 # 天气： {{weather.DATA}}
 # 最低气温: {{min_temperature.DATA}}
 # 最高气温: {{max_temperature.DATA}}
-# 今天是破壳日的第: {{love_day.DATA}} 天
-# 距离开学还有: {{birthday.DATA}} 天
+# 今天是在一起的第: {{love_day.DATA}} 天
+# 距离破壳日还有: {{birthday.DATA}} 天
 # ----------------今日课程----------------
 # 第一讲: {{firstClass.DATA}}
 # 第二讲: {{secondClass.DATA}}
