@@ -200,14 +200,6 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
             "fourthClass": {
                 "value": theClass[3],
                 "color": "#FF8000"
-            },
-            "fifthClass": {
-                "value": theClass[4],
-                "color": "#FF8000"
-            },
-            "sixthClass": {
-                "value": theClass[5],
-                "color": "#FF8000"
             }
         }
     }
