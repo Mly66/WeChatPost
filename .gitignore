@@ -1,0 +1,72 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+# 注意: 不忽略 *.so — 仓库中存在由 .c 编译的 Linux 扩展模块
+# (如 RadarGridC.cpython-38-x86_64-linux-gnu.so)，Windows 下无法重建
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---------- 虚拟环境 ----------
+venv/
+env/
+ENV/
+.venv/
+.env/
+env.bak/
+venv.bak/
+
+# ---------- 测试 / 覆盖率 ----------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- mypy / 类型检查 ----------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.ruff_cache/
+
+# ---------- IDE: PyCharm ----------
+.idea/
+*.iml
+
+# ---------- IDE: VSCode ----------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# ---------- 环境变量 ----------
+# .env.development / .env.production 属于项目配置，需提交
+# 仅忽略含本地密钥的文件
+.env.local
+.env.*.local
+
+# ---------- 日志 ----------
+logs/
+*.log
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
